@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ADD8E6">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/symbol"></ImageView>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="#FFFF99"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:hint="@string/username"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        android:background="#FFFF66"
+        android:layout_gravity="center"
+        android:text="@string/password" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="150dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/login"
+        android:textSize="15dp"
+        android:background="#FFFF00"
+        android:layout_gravity="center"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/newregister"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="#FFFF33"
+        android:hint="@string/newregister"
+        android:text="@string/register"
+        android:textAlignment="center"
+        android:textSize="25dp" />
+
+</LinearLayout>
